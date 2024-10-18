@@ -7,8 +7,12 @@
 * {
   box-sizing: border-box;
 }
-
+/* font-family: "Open Sans", sans-serif; */
 body {
+  font-family: "Cormorant", serif;
+  color: rgb(21, 22, 24);
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 .none {
@@ -25,4 +29,33 @@ ul {
 
 a {
   text-decoration: none;
+  color: rgb(21, 22, 24);
+}
+.header {
+  margin-top: 87px;
+}
+.header-top {
+  width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.nav {
+  border: 1px solid rgb(0, 0, 0);
+}
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  padding-right: 65px;
+}
+.nav-list li:last-child {
+  padding-right: 34px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
 }
