@@ -1,0 +1,28 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.none {
+  display: none;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
