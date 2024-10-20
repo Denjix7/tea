@@ -128,11 +128,11 @@ a {
   margin: 0 auto;
   margin-top: 150px;
 }
-.collection-tea-titlle {
+.titlle {
   font-size: 40px;
   line-height: 1;
 }
-.cards-wrapper {
+.cards-wrapper-tea {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,4 +149,35 @@ a {
 .card-tea span {
   font-size: 24px;
   line-height: 1.2;
+}
+.client-say {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 210px;
+}
+
+.cards-wrapper-say {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 26px;
+  margin-top: 60px;
+}
+.card-say {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.card-say p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+}
+.card-say span {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
 }
