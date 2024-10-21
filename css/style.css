@@ -291,3 +291,35 @@ a {
   display: flex;
   gap: 10px;
 }
+.prioritise {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-top: 150px;
+}
+.prioritise-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+.prioritise-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.prioritise-card h3 {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 300;
+}
+.prioritise-card p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.prioritise-card img {
+  margin-top: 40px;
+}
