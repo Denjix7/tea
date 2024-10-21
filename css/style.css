@@ -323,3 +323,120 @@ a {
 .prioritise-card img {
   margin-top: 40px;
 }
+.footer {
+  margin-top: 150px;
+  background-color: #f7f2ea;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-row_1 {
+  display: flex;
+  gap: 226px;
+}
+.footer-row_2 {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-products {
+  width: 97px;
+}
+.footer-company {
+  width: 155px;
+}
+.footer-title {
+  font-size: 24px;
+}
+.footer-list {
+  margin-top: 50px;
+}
+.footer-list-item {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.footer-list-item:last-child {
+  padding-bottom: 0;
+}
+.footer-blog {
+}
+.footer-blockquote {
+  width: 269px;
+}
+.footer-blockquote p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer-blockquote-text {
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 300;
+}
+.footer-touch {
+  width: 270px;
+}
+.footer-title {
+}
+.footer-touch-text {
+  margin-top: 50px;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 300;
+}
+.footer-contact {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo span {
+  font-size: 14px;
+  font-weight: 400;
+  align-items: center;
+}
+.footer-adress {
+  display: flex;
+}
+.footer-tel {
+  display: flex;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 300;
+  gap: 10px;
+}
+.footer-mail {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+.footer-copirait {
+  display: flex;
+  gap: 205px;
+  margin-top: 105px;
+}
+.footer-copirait-text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+}
+.pay {
+  display: flex;
+  gap: 20px;
+}
