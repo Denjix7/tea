@@ -32,14 +32,35 @@ a {
 }
 .header {
   margin-top: 30px;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    margin-top: 10px;
+  }
+  @media (max-width: 368px) {
+  }
 }
 .header-top {
-  width: 1230px;
+  width: 1220px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 0 15px;
+  padding: 0 10px;
+  @media (max-width: 1000px) {
+    width: 980px;
+  }
+  @media (max-width: 768px) {
+    width: 655px;
+  }
+  @media (max-width: 480px) {
+    width: 436px;
+  }
+  @media (max-width: 368px) {
+    width: 406px;
+  }
 }
 .logo {
   display: flex;
@@ -48,9 +69,27 @@ a {
 }
 .logo span {
   font-size: 18px;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+    font-size: 10px;
+  }
 }
 .nav {
   border: 1px solid rgb(0, 0, 0);
+  @media (max-width: 1000px) {
+    border: none;
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+  }
 }
 .nav-list {
   display: flex;
@@ -82,31 +121,80 @@ a {
 }
 
 .header-center {
-  width: 1200px;
+  width: 1220px;
+  padding: 0 10px;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
   gap: 20px;
+  @media (max-width: 1000px) {
+    width: 980px;
+  }
+  @media (max-width: 768px) {
+    width: 655px;
+  }
+  @media (max-width: 480px) {
+    width: 436px;
+  }
+  @media (max-width: 368px) {
+    width: 406px;
+    gap: 10px;
+  }
 }
 .title {
   margin-top: 150px;
   color: rgb(255, 255, 255);
   font-size: 60px;
   line-height: 1;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    font-size: 40px;
+  }
+  @media (max-width: 368px) {
+    font-size: 24px;
+  }
 }
 .subtitle {
   color: rgb(255, 255, 255);
   font-size: 24px;
   line-height: 1.2;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+    font-size: 13px;
+    font-weight: 300;
+  }
 }
 .blockquote {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1200px;
-  margin-top: 200px;
+  width: 1220px;
+  padding: 0 10px;
+  margin-top: 150px;
   margin-right: auto;
   margin-left: auto;
+  @media (max-width: 1000px) {
+    margin-top: 120px;
+    width: 980px;
+  }
+  @media (max-width: 768px) {
+    width: 655px;
+  }
+  @media (max-width: 480px) {
+    margin-top: 60px;
+    width: 436px;
+  }
+  @media (max-width: 368px) {
+    width: 406px;
+  }
 }
 
 .blockquote p {
@@ -114,12 +202,33 @@ a {
   font-weight: 300;
   line-height: 1;
   text-align: center;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    font-size: 16px;
+  }
+  @media (max-width: 368px) {
+  }
 }
 
 .container {
-  width: 1230px;
+  width: 1220px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 10px;
+  @media (max-width: 1000px) {
+    width: 980px;
+  }
+  @media (max-width: 768px) {
+    width: 655px;
+  }
+  @media (max-width: 480px) {
+    width: 436px;
+  }
+  @media (max-width: 368px) {
+    width: 406px;
+  }
 }
 .collection-tea {
   display: flex;
@@ -127,6 +236,16 @@ a {
   align-items: center;
   margin: 0 auto;
   margin-top: 150px;
+  @media (max-width: 1000px) {
+    margin-top: 120px;
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    margin-top: 60px;
+  }
+  @media (max-width: 368px) {
+  }
 }
 .titlle {
   font-size: 40px;
@@ -136,9 +255,20 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   gap: 40px;
   margin-top: 60px;
+  @media (max-width: 1000px) {
+    margin-top: 30px;
+    gap: 20px;
+  }
+  @media (max-width: 768px) {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+  }
 }
 .card-tea {
   display: flex;
@@ -157,6 +287,16 @@ a {
   margin: 0 auto;
   margin-top: 210px;
   background-color: #f7f2ea;
+  @media (max-width: 1000px) {
+    margin-top: 180px;
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    margin-top: 110px;
+  }
+  @media (max-width: 368px) {
+  }
 }
 
 .cards-wrapper-say {
@@ -165,6 +305,27 @@ a {
   align-items: center;
   gap: 26px;
   margin-top: 60px;
+  @media (max-width: 1000px) {
+    .card-say-none4 {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .card-say-none4 {
+      display: block;
+    }
+    flex-wrap: wrap;
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+    .card-say-none3 {
+      display: none;
+    }
+    .card-say-none4 {
+      display: none;
+    }
+  }
 }
 .card-say {
   display: flex;
@@ -189,10 +350,40 @@ a {
   align-items: center;
   margin: 0 auto;
   margin-top: 150px;
+  @media (max-width: 1000px) {
+    margin-top: 120px;
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    margin-top: 60px;
+  }
+  @media (max-width: 368px) {
+    margin-top: 50px;
+  }
 }
 
 .cards-wrapper-blog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
   margin-top: 60px;
+  @media (max-width: 1000px) {
+    gap: 67px;
+  }
+  @media (max-width: 768px) {
+    gap: 30px;
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+    margin-top: 30px;
+    .card-blog-none3,
+    .card-blog-none4 {
+      display: none;
+    }
+  }
 }
 .card-blog {
   width: 542px;
@@ -204,15 +395,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-.cards-row-1 {
-  display: flex;
-  gap: 58px;
-}
-.cards-row-2 {
-  display: flex;
-  gap: 58px;
-  margin-top: 40px;
-}
+
 .cards-subtitle {
   font-size: 24px;
   line-height: 1.2;
@@ -251,11 +434,25 @@ a {
   background-color: #f7f2ea;
 }
 .more-wrapper {
-  width: 1200px;
+  width: 1220px;
+  padding: 0 10px;
   display: flex;
   margin: 0 auto;
   gap: 60px;
   align-items: center;
+  @media (max-width: 1000px) {
+    width: 980px;
+  }
+  @media (max-width: 768px) {
+    width: 655px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 480px) {
+    width: 436px;
+  }
+  @media (max-width: 368px) {
+    width: 406px;
+  }
 }
 .more-content p {
   margin-top: 50px;
@@ -263,6 +460,15 @@ a {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+    font-size: 13px;
+  }
 }
 
 .button-more {
@@ -302,6 +508,15 @@ a {
   display: flex;
   gap: 30px;
   margin-top: 60px;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+  }
 }
 .prioritise-card {
   display: flex;
@@ -313,13 +528,32 @@ a {
   font-family: Open Sans;
   font-size: 30px;
   font-weight: 300;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+    font-size: 20px;
+  }
 }
 .prioritise-card p {
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 600;
   padding-top: 10px;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+    font-size: 10px;
+  }
 }
+
 .prioritise-card img {
   margin-top: 40px;
 }
@@ -331,14 +565,15 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.footer-row_1 {
-  display: flex;
-  gap: 226px;
-}
-.footer-row_2 {
-  display: flex;
-  gap: 40px;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+  }
 }
 
 .footer-products {
@@ -351,8 +586,9 @@ a {
   font-size: 24px;
 }
 .footer-list {
-  margin-top: 50px;
+  padding-top: 50px;
 }
+
 .footer-list-item {
   font-family: Open Sans;
   font-size: 16px;
@@ -362,8 +598,7 @@ a {
 .footer-list-item:last-child {
   padding-bottom: 0;
 }
-.footer-blog {
-}
+
 .footer-blockquote {
   width: 269px;
 }
@@ -381,8 +616,7 @@ a {
 .footer-touch {
   width: 270px;
 }
-.footer-title {
-}
+
 .footer-touch-text {
   margin-top: 50px;
   font-family: Open Sans;
