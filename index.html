@@ -34,10 +34,10 @@
         </div>
         <img src="./img/icons/serch.svg" alt="search" />
       </div>
-      <div class="header-burger header-burger__none">
-        <div class="img-burger">
-          <img src="./img/icons/burger.svg" alt="burger" />
-        </div>
+      <button class="img-burger" id="burger">
+        <img src="./img/icons/burger.svg" alt="burger" />
+      </button>
+      <div class="header-burger header-burger__none" id="menu">
         <div class="logo-mini logo-mini-none">
           <picture>
             <source srcset="./img/logo_mini.svg" media="(max-width: 480px)" />
@@ -72,7 +72,7 @@
           <img src="./img/icons/bag.svg" alt="bag" />
           <img src="./img/icons/map.svg" alt="map" />
         </div>
-        <img src="./img/icons/serch.svg" alt="search" />
+        <img class="img-sub" src="./img/icons/serch.svg" alt="search" />
       </div>
       <div class="bg">
         <div class="header-center">
@@ -332,9 +332,11 @@
             <div class="footer-blog">
               <blockquote class="footer-blockquote">
                 <p>
-                  “Tea is a journey. It can take you to new places and open your
-                  mind to new experiences. Let every sip transport you to a
-                  world of wonder and possibility”
+                  “Tea is a journey. It can take you to <br />
+                  new places and open your mind to <br />
+                  new experiences. Let every sip <br />
+                  transport you to a world of wonder <br />
+                  and possibility”
                 </p>
                 <div class="footer-blockquote-text">
                   <span>
@@ -410,5 +412,6 @@
         </div>
       </footer>
     </main>
+    <script src="./main.js"></script>
   </body>
 </html>
