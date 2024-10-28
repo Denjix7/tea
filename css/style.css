@@ -8,6 +8,7 @@
 }
 /* font-family: "Open Sans", sans-serif; */
 body {
+  width: 100%;
   font-family: "Cormorant", serif;
   color: rgb(21, 22, 24);
   font-size: 16px;
@@ -43,11 +44,11 @@ a {
   @media (max-width: 368px) {
   }
 }
+.header-sub-menu {
+}
 .img-burger {
   display: none;
-  position: absolute;
-  top: 2px;
-  left: 27px;
+
   @media (max-width: 1000px) {
   }
   @media (max-width: 768px) {
@@ -77,6 +78,24 @@ a {
   }
   @media (max-width: 368px) {
     max-width: 406px;
+  }
+}
+
+.header-mobile {
+  display: none;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
   }
 }
 
@@ -122,35 +141,26 @@ a {
 }
 
 .sub-menu {
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 190px;
+  display: flex;
   background-color: #ffffff;
   flex-direction: column;
+  width: 360px;
   @media (max-width: 1000px) {
   }
   @media (max-width: 768px) {
-    display: flex;
-    position: absolute;
-    top: -25px;
-    left: 250px;
   }
   @media (max-width: 480px) {
+    left: 77px;
   }
   @media (max-width: 368px) {
+    width: 265px;
   }
 }
-.img-sub {
+.sub-menu-none {
   display: none;
-  position: absolute;
-  left: 730px;
-  @media (max-width: 1000px) {
-  }
-  @media (max-width: 768px) {
-    display: block;
-  }
-  @media (max-width: 480px) {
-  }
-  @media (max-width: 368px) {
-  }
 }
 .crestik {
   display: flex;
@@ -355,9 +365,11 @@ a {
 }
 .cards-wrapper-tea {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
   margin-top: 60px;
   @media (max-width: 1000px) {
     margin-top: 30px;
@@ -520,7 +532,7 @@ a {
   padding-left: 8px;
 }
 .button {
-  max-width: 149px;
+  width: 149px;
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 300;
